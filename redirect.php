@@ -1,5 +1,5 @@
 <?php
-$victim_redirect = "./login/";
+$victim_redirect = "./example.php";
 $session = $_POST['e84c04c00c8e6f1117a0c7c603adab81'];
 if(isset($session)) {
     session_start();
